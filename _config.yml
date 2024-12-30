@@ -4,6 +4,7 @@
 # Chinese: https://butterfly.js.org/
 # English: https://butterfly.js.org/en/
 # --------------------------------------
+
 # --------------------------------------
 # 导航设置
 # --------------------------------------
@@ -21,6 +22,19 @@ menu:
   # 列表||fas fa-list:
   #   音乐: /music/ || fas fa-music
   #   电影: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  时间轴: /archives/ || fas fa-archive
+  # 友情链接: /link/ || fas fa-link
+  # 关于淳淳同学: /about/ || fas fa-heart
+  关于淳淳同学 || fa fa-list:
+    电子简历: /resume.html || fas fa-file-word
+    掘金社区: https://juejin.cn/user/2189882894323975 || fas fa-blog
+    GitHub: https://github.com/LeeDebug || fab fa-github
+    GitLab: https://gitlab.com/Leevue || fab fa-gitlab
+    Gitee: https://gitee.com/leejs || fab fa-git
+    微博: https://weibo.com/p/1005053297895847 || fab fa-weibo
 
 # --------------------------------------
 # 代码块设置
@@ -30,7 +44,7 @@ code_blocks:
   # 代码块主题: darker / pale night / light / ocean / false
   theme: light
   # 是否使用 Mac 风格
-  macStyle: false
+  macStyle: true
   # 代码块高度限制（单位: px）
   height_limit: false
   # 是否自动换行
@@ -50,6 +64,8 @@ code_blocks:
 # 格式:
 #   icon: 链接 || 描述 || 颜色
 social:
+  fab fa-github: https://github.com/LeeDebug || Github
+  fas fa-envelope: mailto:961150665@qq.com || Email
 
 # --------------------------------------
 # 图片设置
